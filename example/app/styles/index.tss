@@ -1,0 +1,25 @@
+".container": {
+	backgroundColor:"white"
+}
+"View": {
+  layout: "vertical"
+}
+
+"Label": {
+	width: Ti.UI.SIZE,
+	height: Ti.UI.SIZE,
+}
+
+".black": {
+  color: "black",
+  font: {fontSize: 20}
+}
+".blue": {
+  color: "blue",
+  font: {fontSize: 28}
+}
+".red": {
+  color: "red",
+  font: {fontSize: 15}
+}
+

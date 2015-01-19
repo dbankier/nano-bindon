@@ -1,0 +1,44 @@
+{
+  "name": "ti-nano-bindon",
+  "version": "0.1.0",
+  "description": "A plugin for nano to change the view binding event",
+  "directories": {
+    "example": "example"
+  },
+  "main": "src/nano-bindon.js",
+  "scripts": {
+    "postinstall": "node scripts/install.js"
+  },
+  "titaniumManifest": {
+    "name": "nano-bindon",
+    "moduleid": "nano-bindon",
+    "guid": "5d9c068c-a4dd-921d-f244-c92374fcfa07"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dbankier/nano-bindon.git"
+  },
+  "keywords": [
+    "nano",
+    "appcelerator",
+    "titanium",
+    "alloy",
+    "data-binding",
+    "observe-js"
+  ],
+  "author": "David Bankier",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dbankier/nano-bindon/issues"
+  },
+  "homepage": "https://github.com/dbankier/nano-bindon",
+  "devDependencies": {
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-shell": "^1.1.1",
+    "grunt-titaniumifier": "^1.0.1",
+    "matchdep": "^0.3.0"
+  },
+  "dependencies": {
+    "nano": "^6.0.2"
+  }
+}

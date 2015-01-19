@@ -1,0 +1,10 @@
+<Alloy>
+	<Window class="container">
+    <View top="100">
+      <TextField value="{{value}}" bindon="blur"></TextField>
+      <TextField value="{{value}}" bindon="click"></TextField>
+      <TextField value="{{value}}"></TextField>
+      <Label>{{value}}</Label>
+    </View>
+	</Window>
+</Alloy>
